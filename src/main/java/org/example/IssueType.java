@@ -1,0 +1,9 @@
+package org.example;
+
+public enum IssueType {
+    SELECT_STAR,
+    MISSING_JOIN_CONDITION,
+    MISSING_INDEX_SUGGESTION,
+    CARTESIAN_PRODUCT_RISK,
+    INEFFICIENT_WILDCARD
+}
